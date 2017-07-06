@@ -48,7 +48,7 @@ class Conversion2Str:
         qr.add_data(txt)
         qr.make(fit=True)
         image = qr.make_image()
-        with open(self.load_dir[:-3] + '.png', 'wb') as f:
+        with open(self.load_dir[:-3] + 'png', 'wb') as f:
             image.save(f)
         qr.clear()
 
