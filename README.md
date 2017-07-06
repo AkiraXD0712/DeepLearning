@@ -23,4 +23,6 @@ Input:
 Output:  
 ![](https://github.com/AkiraXD0712/Image2String/blob/master/res/output.jpg?raw=true)
 ## Help
-problem with qrcode
+problem with qrcode, the data becommes strange after scanning the qrcode
+QRcode:  
+![](https://github.com/AkiraXD0712/Image2String/blob/master/res/qrcode.png?raw=true)
