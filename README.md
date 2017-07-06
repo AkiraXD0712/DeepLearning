@@ -18,9 +18,9 @@ By default, resize=0.07
 `python Img2Str.py --image_dir=<location of the image> --resize=<rate of resize> --qrcode=<create a qrcode>`  
 ## Result
 Input:  
-![](https://github.com/AkiraXD0712/Image2String/blob/master/portrait1.jpg?raw=true)
+![](https://github.com/AkiraXD0712/Image2String/blob/master/res/input.jpg?raw=true)
 ***
 Output:  
-![](https://github.com/AkiraXD0712/Image2String/blob/master/str_portrait.jpg?raw=true)
+![](https://github.com/AkiraXD0712/Image2String/blob/master/res/output.jpg?raw=true)
 ## Help
 problem with qrcode
