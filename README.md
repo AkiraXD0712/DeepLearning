@@ -12,7 +12,7 @@ First we need to download python3 for this program et we need some python extens
 `sudo pip3 install qrcode`  
 #### For Windows
 `python -m pip install qrcode`  
-## Run the program
+## Build
 By default, resize=0.07.    
 `python Img2Str.py --image_dir=<location of the image> --resize=<rate of resize> --qrcode=<create a qrcode>`  
 ## Result
