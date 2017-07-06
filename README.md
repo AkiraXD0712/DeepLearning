@@ -4,12 +4,12 @@ Convert a image into .txt with 8 character, the output will be saved in **.txt**
 First we need to download python3 for this program et we need some python extension packages: **pillow** and **qrcode**
 ### Install pillow    
 #### For Linux  
-`pip3 install pillow` 
+`sudo pip3 install pillow` 
 #### For Windows
 `python -m pip install pillow`   
 ### Install qrcode  
 #### For Linux   
-`pip3 install qrcode`  
+`sudo pip3 install qrcode`  
 #### For Windows
 `python -m pip install qrcode`  
 ## Run the program
