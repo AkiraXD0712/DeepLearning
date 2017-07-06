@@ -6,7 +6,7 @@ import argparse
 
 class Conversion2Str:
 
-    def __init__(self, load_dir, width=None, height=None, resize=0.07):
+    def __init__(self, load_dir, width=None, height=None, resize=0.06):
         self.load_dir = load_dir
         self.width = width
         self.height = height
