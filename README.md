@@ -1,5 +1,4 @@
 # Image2String  
-## Presentation  
 Convert a image into .txt with 8 character, the output will be saved in **.txt** and we will create a **QRcode** to store this output  
 ## Preparation 
 First we need to download python3 for this program et we need some python extension packages: **pillow** and **qrcode**
