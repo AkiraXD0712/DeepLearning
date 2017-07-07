@@ -6,10 +6,10 @@ import argparse
 
 class Conversion2Str:
 
-    def __init__(self, load_dir, width=None, height=None, resize=0.06):
+    def __init__(self, load_dir, resize):
         self.load_dir = load_dir
-        self.width = width
-        self.height = height
+        self.width = None
+        self.height = None
         self.resize = resize
 
     def read_image(self):
@@ -56,18 +56,28 @@ class Conversion2Str:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--image_dir', type=str, help='location of the image')
-    parser.add_argument('--resize', type=float, help='rate od resize')
-    parser.add_argument('--qrcode', type=bool, help='create QRcode')
+    parser.add_argument(
+		'--image_dir', 
+		type=str, 
+		help='location of the image'
+	)
+    parser.add_argument(
+		'--resize', 
+		type=float, 
+		default=0.06,
+		help='rate od resize'
+	)
+    parser.add_argument(
+		'--qrcode', 
+		type=bool, 
+		help='create QRcode'
+	)
 
     args = parser.parse_args()
 
     if args.image_dir:
         print('<--------------------Start conversion------------------->')
-        if args.resize:
-            convert = Conversion2Str(args.image_dir, resize=args.resize)
-        else:
-            convert = Conversion2Str(args.image_dir)
+        convert = Conversion2Str(args.image_dir, resize=args.resize)
         img = convert.read_image()
         result = convert.transform2str(img)
         print(result) 
